@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{cf0ebf4b-a911-4b83-bd8c-77c46c2ac57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\SceneBase">
+      <UniqueIdentifier>{ab0fd454-e608-47f4-8f07-dd2473385dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\SceneManager">
+      <UniqueIdentifier>{b7dbb58a-c15a-4ccf-9211-5cc80cafc6d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Title">
+      <UniqueIdentifier>{e848e699-b42d-40d5-b85b-f78832855ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Resulte">
+      <UniqueIdentifier>{ffb21b3e-06f4-4a77-9fcf-f7b0e0a1b18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Play">
+      <UniqueIdentifier>{a1b63b34-c8b1-480b-8ea6-12d009bf769c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Chara">
+      <UniqueIdentifier>{d4f58b13-3c40-4636-a168-0e923409aa70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Chara\Player">
+      <UniqueIdentifier>{6dbd9f2e-857a-4fe6-b407-437c6819bd6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\background">
+      <UniqueIdentifier>{ffd0985b-59cf-4370-8120-d78504f2db58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Chara\Enemy">
+      <UniqueIdentifier>{f32f2e91-1748-4f00-9bfb-29f0e4d41290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\background\Scroll">
+      <UniqueIdentifier>{cc3dcde7-df5f-448a-abf7-7f795d307cae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\TIme">
+      <UniqueIdentifier>{c0ce7dc7-46b4-4139-ad84-15faa3021b64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SourceCode\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Scene\SceneBase\SceneBase.cpp">
+      <Filter>ソース ファイル\Scene\SceneBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Scene\Title\Title.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Scene\Resulte\Resulte.cpp">
+      <Filter>ソース ファイル\Scene\Resulte</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Scene\Play\Play.cpp">
+      <Filter>ソース ファイル\Scene\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Chara\Player\Player.cpp">
+      <Filter>ソース ファイル\Chara\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Scene\background\background.cpp">
+      <Filter>ソース ファイル\Scene\background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Chara\Enemy\Enemy.cpp">
+      <Filter>ソース ファイル\Chara\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Scene\Scroll\Scroll.cpp">
+      <Filter>ソース ファイル\Scene\background\Scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Time\Time.cpp">
+      <Filter>ソース ファイル\TIme</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SourceCode\Scene\SceneBase\SceneBase.h">
+      <Filter>ソース ファイル\Scene\SceneBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Scene\Title\Title.h">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Scene\Resulte\Resulte.h">
+      <Filter>ソース ファイル\Scene\Resulte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Scene\Play\Play.h">
+      <Filter>ソース ファイル\Scene\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Chara\Player\Player.h">
+      <Filter>ソース ファイル\Chara\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Scene\background\background.h">
+      <Filter>ソース ファイル\Scene\background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Chara\Enemy\Enemy.h">
+      <Filter>ソース ファイル\Chara\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Scene\Scroll\Scroll.h">
+      <Filter>ソース ファイル\Scene\background\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Time\Time.h">
+      <Filter>ソース ファイル\TIme</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
